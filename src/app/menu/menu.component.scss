@@ -7,11 +7,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 3em;
-    background-color: rgba(255, 255, 255, 0.4);
+    padding-inline: 120px;
 
     img {
         object-fit: contain;
         height: 100%;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-inline-start: 3em;
+        font-weight: 400;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
     }
 }
